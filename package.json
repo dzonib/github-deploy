@@ -1,0 +1,25 @@
+{
+  "name": "github-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzonib/github-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://dzonib.github.io/github-deploy",
+  "bugs": {
+    "url": "https://github.com/dzonib/github-deploy/issues"
+  },
+  "homepage": "https://github.com/dzonib/github-deploy#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
